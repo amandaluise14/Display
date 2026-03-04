@@ -1,3 +1,16 @@
 body{
     background-color: rgb(227, 200, 252);
 }
+.block{
+    width: 80%;
+    font-size: 30px;
+    height: 20%;
+    display: block;
+    margin-bottom: 40px;
+    background-color: rgb(210, 133, 255);
+}
+.inline{
+    font-size: 30px;
+    display: inline;
+    background-color: rgb(210, 133, 255);
+}
