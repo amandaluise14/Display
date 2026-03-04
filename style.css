@@ -38,18 +38,17 @@ body{
 
 .yo{
     margin-right: 10%;
-    padding-right: 20px;
-    margin-top: 20px; 
-    background-color: rgb(210, 133, 255);       
-}
-
-.green{
-    padding-right: 20px;
-    margin-bottom: 100px;
     margin-top: 20px; 
     background-color: rgb(210, 133, 255);
+    border: 2px solid white;       
 }
-
+.blue{
+    margin-right: 10%;
+    padding: 30;
+    margin-top: 20px; 
+    background-color: rgb(210, 133, 255);
+    border: 2px solid white;       
+}
 .inline-flex{
     display: inline-flex;
     width: 50%;
