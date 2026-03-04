@@ -52,12 +52,11 @@ body{
     width: 50%;
     font-size: 20px;
 }
-.
 
 .grid{
     display: grid;
-    grid-template-columns: repeat(3, 1fr) ;
     gap: 15px;
+    margin-right: 800px;
 }
 
 .inline-grid{
@@ -72,13 +71,14 @@ body{
 background-color: rgb(210, 133, 255);
 padding: 20px;    
 text-align: center;
+ border:  2px solid white;
 }
 .flow-root{
 display: flow-root;  
 border:  2px solid white;
 background-color: rgb(210, 133, 255);
 margin-top: 20px;
-margin-right: 400px;  
+margin-right: 800px;  
 }
 .item2{
 background-color: rgb(210, 133, 255);
