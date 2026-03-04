@@ -41,7 +41,6 @@ body{
     margin-bottom: 100px;
     margin-top: 20px; 
     background-color: rgb(210, 133, 255);
-<<<<<<< HEAD
 }
 .grid{
     display: grid;
@@ -52,7 +51,4 @@ body{
 background-color: rgb(210, 133, 255);
 padding: 20px;    
 text-align: center;
-=======
->>>>>>> fd976f748d8489cf063d351d572904eba62a655b
->>>>>>> 99f2a44a4966eb8b81e0a4cc09b8dc841171213a
 }
