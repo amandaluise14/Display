@@ -3,27 +3,43 @@ body{
     color: white;
 }
 .block{
-    width: 80%;
-    font-size: 30px;
+    width: 50%;
+    align-items: center;
+    font-size: 50px;
     height: 20%;
     display: block;
     border:  2px solid white;
-    margin-bottom: 40px;
+    margin-bottom: 10px;
     background-color: rgb(210, 133, 255);
 }
 .inline{
     font-size: 30px;
+    display: inline;
+    
+}
+.teste{
+    background-color: rgb(210, 133, 255);
+    font-size: 50px;
+    padding: 15px;
     border:  2px solid white;
     display: inline;
-    background-color: rgb(210, 133, 255);
 }
 .inline-block{
     display: inline-block;
 
 }
+.quadradinho{
+    display: inline-flex;
+    width: 20px;
+    padding: 15px;
+    border:  2px solid white;
+    font-size: 30px;
+    background-color: rgb(210, 133, 255);
+}
 .elemento{
     background-color: rgb(210, 133, 255);
     font-size: 50px;
+    padding: 15px;
     border:  2px solid white;
     display: inline-block;
 }
@@ -48,11 +64,7 @@ body{
     background-color: rgb(210, 133, 255);
     border: 2px solid white;       
 }
-.inline-flex{
-    display: inline-flex;
-    width: 50%;
-    font-size: 20px;
-}
+
 
 .grid{
     display: grid;
@@ -66,7 +78,7 @@ body{
   gap: 10px; 
   border:  2px solid white;
   font-size: 50px;
-  background-color:  rgb(210, 133, 255); ;
+  background-color:  rgb(210, 133, 255) ;
 }
 
 .item{
