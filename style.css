@@ -7,17 +7,20 @@ body{
     font-size: 30px;
     height: 20%;
     display: block;
+    border:  2px solid white;
     margin-bottom: 40px;
     background-color: rgb(210, 133, 255);
 }
 .inline{
     font-size: 30px;
+    border:  2px solid white;
     display: inline;
     background-color: rgb(210, 133, 255);
 }
 .inline-block{
     display: inline-block;
     width: 50%;
+    border:  2px solid white;
     font-size: 20px;
     height: 50px;
     margin-left: 5px;
@@ -61,10 +64,11 @@ body{
 
 .inline-grid{
   display: inline-grid;
-  grid-template-columns: auto auto auto; 
+  grid-template-columns:auto auto auto; 
   gap: 10px; 
-  background-color: rgb(210, 133, 255);
-  padding: 10px;
+  border:  2px solid white;
+  font-size: 50px;
+  background-color:  rgb(210, 133, 255); ;
 }
 
 .item{
