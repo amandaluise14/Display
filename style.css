@@ -49,6 +49,7 @@ body{
     gap: 10px;
     margin-right: 50%;
     margin-top: 20px;
+    flex-wrap: wrap;
 }
 
 .yo{
