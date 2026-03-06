@@ -171,3 +171,12 @@ text-align:center;
     display: grid;
     gap: 15px;
 }
+
+#gato{
+right: 0px;
+bottom: 0px;
+position: fixed;
+width: 200px;
+height: 200px;
+
+}
