@@ -10,7 +10,7 @@ body{
     position: sticky;
     top: 0;
     padding: 5px;
-    background-color: rgb(137, 38, 177); 
+    background-color: rgba(138, 38, 177, 0.712); 
     color: rgb(210, 133, 255);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
