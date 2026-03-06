@@ -95,6 +95,12 @@ body{
     background-color: rgb(210, 133, 255);
     border: 2px solid white;       
 }
+.green{
+    display: inline;
+    padding: 30; 
+    background-color: rgb(210, 133, 255);
+    border: 2px solid white;       
+}
 .purple{
     padding: 20; 
     background-color: rgb(210, 133, 255);
