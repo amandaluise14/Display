@@ -12,7 +12,10 @@ body{
     padding: 5px;
     background-color: rgba(138, 38, 177, 0.712); 
     color: rgb(210, 133, 255);
+<<<<<<< HEAD
+=======
     text-align: center;
+>>>>>>> 4c708442e8eb8b40699168c9e07ed0d765de4adc
 }
 
 .block {
