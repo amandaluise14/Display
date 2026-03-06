@@ -146,7 +146,7 @@ font-size: 50px;
     flex-flow: wrap;
     margin-right: 20px;
     padding: 15px;
-    text-align: center;
+    <text-align: center;
 }
 .item4{
     flex-flow: wrap;
@@ -156,4 +156,8 @@ font-size: 50px;
     text-align: center;
     background-color: rgb(210, 133, 255);
     border:  2px solid white;
+}
+.grid2{
+    display: grid;
+    gap: 15px;
 }
