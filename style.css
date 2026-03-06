@@ -10,9 +10,9 @@ body{
     position: sticky;
     top: 0;
     padding: 5px;
-    background-color: rgba(138, 38, 177, 0.712); 
-    color: rgb(210, 133, 255);
+    background-color: rgba(138, 38, 177, 0.664); 
     text-align: center;
+    color: rgb(218, 158, 253);
 }
 
 .block {
