@@ -10,12 +10,9 @@ body{
     position: sticky;
     top: 0;
     padding: 5px;
-    background-color: rgba(138, 38, 177, 0.712); 
-    color: rgb(210, 133, 255);
-<<<<<<< HEAD
-=======
+    background-color: rgba(138, 38, 177, 0.664); 
     text-align: center;
->>>>>>> 4c708442e8eb8b40699168c9e07ed0d765de4adc
+    color: rgb(218, 158, 253);
 }
 
 .block {
