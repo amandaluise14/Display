@@ -1,15 +1,17 @@
 body{
-    background-color: rgb(227, 200, 252);
-    color: white;
-   
+    background-color: rgb(235, 212, 253);
+    color: rgb(137, 38, 177);
+    margin: 0;
 }
 .block{
     font-size: 50;
     height: 10%;
+    width: 50%;
     display: block;
     border:  2px solid white;
     margin-bottom: 10px;
     background-color: rgb(210, 133, 255);
+    margin-left: 10;
 }
 .block_pink{
     display: block;
@@ -161,12 +163,14 @@ font-size: 50px;
     display: grid;
     gap: 15px;
 }
-
 #gato{
 right: 0px;
 bottom: 0px;
 position: fixed;
 width: 200px;
 height: 200px;
-
+}
+.cor{
+    background-color: rgb(223, 182, 250);
+    padding-bottom: 20;
 }
