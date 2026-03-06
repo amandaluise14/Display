@@ -19,6 +19,7 @@ body{
     background-color: rgb(210, 133, 255);
     text-align: center;
     border:  2px solid white;
+     font-size: 50;
 }
 .inline{
     font-size: 30px;
@@ -45,7 +46,6 @@ body{
     background-color: rgb(210, 133, 255);
 
 }
-
 .quadradinho{
     display: block;
     width: 20px;
@@ -53,8 +53,8 @@ body{
     border:  2px solid white;
     font-size: 30px;
     background-color: rgb(210, 133, 255);
+    font-size: 50;
 }
-
 .elemento{
     background-color: rgb(210, 133, 255);
     font-size: 50px;
@@ -62,7 +62,6 @@ body{
     border:  2px solid white;
     display: inline-block;
 }
-
 .tabela{
     display: table;
     border-collapse: collapse;
@@ -73,52 +72,47 @@ body{
 }
 .celula{
     display: table-cell;
-    font-size: 30px;
+    font-size: 50px;
     border:  2px solid white;
     background-color: rgb(210, 133, 255) ;
 }
-
 .flex{
     display: flex;
     gap: 10px;
-    margin-right: 50%;
     margin-top: 20px;
     flex-wrap: wrap;
 }
-
 .yo{
-    margin-right: 10%;
     margin-top: 20px; 
     background-color: rgb(210, 133, 255);
     border: 2px solid white;       
 }
 .blue{
-    margin-right: 10%;
-    padding: 30;
+    padding: 40;
     margin-top: 20px; 
     background-color: rgb(210, 133, 255);
-    border: 2px solid white;       
+    border: 2px solid white;
+    font-size: 50px;       
 }
 .green{
     display: inline;
     padding: 30; 
     background-color: rgb(210, 133, 255);
-    border: 2px solid white;       
+    border: 2px solid white; 
+    font-size: 50;      
 }
 .purple{
     padding: 20; 
     background-color: rgb(210, 133, 255);
     border: 2px solid white; 
     text-align: center;
-    
+    font-size: 50;   
 }
-
 .grid{
     display: grid;
     gap: 15px;
     margin-right: 800px;
 }
-
 .inline-grid{
   display: inline-grid;
   grid-template-columns:auto auto auto; 
@@ -132,41 +126,37 @@ background-color: rgb(210, 133, 255);
 padding: 20px;  
 border:  2px solid white;  
 text-align: center;
-border:  2px solid white;
+font-size: 50px;
 }
-
 .flow_root{
 display: flow-root;  
-margin-top: 20px;
-margin-right: 800px;  
+margin-top: 20px; 
 }
-
 .item2{
 background-color: rgb(210, 133, 255);
 border:  2px solid white;
 float: left;
-width: 50px;
-height: 50px;
-margin: 10px;
-margin-top: 20px;
+padding: 20;
+margin-top: 10px;
 text-align:center;
-}
-
-.block_flow{
-    display: block;
-    background-color: rgb(210, 133, 255);
-    border:  2px solid white;
-    margin-right: 200px;
-    text-align: justify;
+margin: 10;
+font-size: 50px;
 }
 .item3{
     flex-flow: wrap;
-    background-color: rgb(210, 133, 255);
-    border:  2px solid white;
     margin-right: 20px;
     padding: 15px;
+    text-align: center;
 }
-
+.item4{
+    flex-flow: wrap;
+    font-size: 50px;
+    margin-right: 20px;
+    padding: 15px;
+    text-align: center;
+    background-color: rgb(210, 133, 255);
+    border:  2px solid white;
+}
 .grid2{
     display: grid;
     gap: 15px;
