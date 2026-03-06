@@ -11,10 +11,14 @@ body{
     margin-bottom: 10px;
     background-color: rgb(210, 133, 255);
 }
-.pink{
+.block_pink{
+    display: block;
     padding: 40;
-    margin-bottom: 5px;
+    font-size: 30;
+    margin-bottom: 20px;
     background-color: rgb(210, 133, 255);
+    text-align: center;
+    border:  2px solid white;
 }
 .inline{
     font-size: 30px;
@@ -137,8 +141,16 @@ text-align:center;
 }
 
 .block_flow{
-    display: block flow;
+    display: block;
     background-color: rgb(210, 133, 255);
     border:  2px solid white;
-    margin-right: 800px;
+    margin-right: 200px;
+    text-align: justify;
+}
+.item3{
+    flex-flow: wrap;
+    background-color: rgb(210, 133, 255);
+    border:  2px solid white;
+    margin-right: 20px;
+    padding: 15px;
 }
