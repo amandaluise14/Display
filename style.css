@@ -1,172 +1,205 @@
-body{
+body {
     background-color: rgb(227, 200, 252);
     color: white;
-   
+
 }
-.block{
+
+#navbar {
+    position: sticky;
+    top: 0;
+    padding: 5px;
+    background-color: rgba(119, 40, 192, 0.664);
+    color: rgb(210, 133, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.block {
     font-size: 50;
     height: 10%;
     display: block;
-    border:  2px solid white;
+    border: 2px solid white;
     margin-bottom: 10px;
     background-color: rgb(210, 133, 255);
 }
-.block_pink{
+
+.block_pink {
     display: block;
     padding: 40;
     font-size: 30;
     margin-bottom: 20px;
     background-color: rgb(210, 133, 255);
     text-align: center;
-    border:  2px solid white;
-     font-size: 50;
+    border: 2px solid white;
+    font-size: 50;
 }
-.inline{
+
+.inline {
     font-size: 30px;
     display: inline;
-    
+
 }
-.teste{
+
+.teste {
     background-color: rgb(210, 133, 255);
     font-size: 50px;
     padding: 15px;
-    border:  2px solid white;
+    border: 2px solid white;
     display: inline;
 }
-.inline-block{
+
+.inline-block {
     display: inline-block;
 
 }
-.inline_flex{
+
+.inline_flex {
     display: inline-flex;
-     gap: 30px;
+    gap: 30px;
     padding: 15px;
-    border:  2px solid white;
+    border: 2px solid white;
     font-size: 30px;
     background-color: rgb(210, 133, 255);
 
 }
-.quadradinho{
+
+.quadradinho {
     display: block;
     width: 20px;
     padding: 15px;
-    border:  2px solid white;
+    border: 2px solid white;
     font-size: 30px;
     background-color: rgb(210, 133, 255);
     font-size: 50;
 }
-.elemento{
+
+.elemento {
     background-color: rgb(210, 133, 255);
     font-size: 50px;
     padding: 15px;
-    border:  2px solid white;
+    border: 2px solid white;
     display: inline-block;
 }
-.tabela{
+
+.tabela {
     display: table;
     border-collapse: collapse;
 }
-.linha{
+
+.linha {
     display: table-row;
     font-size: 30px;
 }
-.celula{
+
+.celula {
     display: table-cell;
     font-size: 50px;
-    border:  2px solid white;
-    background-color: rgb(210, 133, 255) ;
+    border: 2px solid white;
+    background-color: rgb(210, 133, 255);
 }
-.flex{
+
+.flex {
     display: flex;
     gap: 10px;
     margin-top: 20px;
     flex-wrap: wrap;
 }
-.yo{
-    margin-top: 20px; 
-    background-color: rgb(210, 133, 255);
-    border: 2px solid white;       
-}
-.blue{
-    padding: 40;
-    margin-top: 20px; 
+
+.yo {
+    margin-top: 20px;
     background-color: rgb(210, 133, 255);
     border: 2px solid white;
-    font-size: 50px;       
 }
-.green{
+
+.blue {
+    padding: 40;
+    margin-top: 20px;
+    background-color: rgb(210, 133, 255);
+    border: 2px solid white;
+    font-size: 50px;
+}
+
+.green {
     display: inline;
-    padding: 30; 
+    padding: 30;
     background-color: rgb(210, 133, 255);
-    border: 2px solid white; 
-    font-size: 50;      
+    border: 2px solid white;
+    font-size: 50;
 }
-.purple{
-    padding: 20; 
+
+.purple {
+    padding: 20;
     background-color: rgb(210, 133, 255);
-    border: 2px solid white; 
+    border: 2px solid white;
     text-align: center;
-    font-size: 50;   
+    font-size: 50;
 }
-.grid{
+
+.grid {
     display: grid;
     gap: 15px;
     margin-right: 800px;
 }
-.inline-grid{
-  display: inline-grid;
-  grid-template-columns:auto auto auto; 
-  gap: 10px; 
-  border:  2px solid white;
-  font-size: 50px;
-  background-color:  rgb(210, 133, 255) ;
+
+.inline-grid {
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    border: 2px solid white;
+    font-size: 50px;
+    background-color: rgb(210, 133, 255);
 }
-.item{
-background-color: rgb(210, 133, 255);
-padding: 20px;  
-border:  2px solid white;  
-text-align: center;
-font-size: 50px;
+
+.item {
+    background-color: rgb(210, 133, 255);
+    padding: 20px;
+    border: 2px solid white;
+    text-align: center;
+    font-size: 50px;
 }
-.flow_root{
-display: flow-root;  
-margin-top: 20px; 
+
+.flow_root {
+    display: flow-root;
+    margin-top: 20px;
 }
-.item2{
-background-color: rgb(210, 133, 255);
-border:  2px solid white;
-float: left;
-padding: 20;
-margin-top: 10px;
-text-align:center;
-margin: 10;
-font-size: 50px;
+
+.item2 {
+    background-color: rgb(210, 133, 255);
+    border: 2px solid white;
+    float: left;
+    padding: 20;
+    margin-top: 10px;
+    text-align: center;
+    margin: 10;
+    font-size: 50px;
 }
-.item3{
+
+.item3 {
     flex-flow: wrap;
     margin-right: 20px;
     padding: 15px;
     text-align: center;
 }
-.item4{
+
+.item4 {
     flex-flow: wrap;
     font-size: 50px;
     margin-right: 20px;
     padding: 15px;
     text-align: center;
     background-color: rgb(210, 133, 255);
-    border:  2px solid white;
+    border: 2px solid white;
 }
-.grid2{
+
+.grid2 {
     display: grid;
     gap: 15px;
 }
 
-#gato{
-right: 0px;
-bottom: 0px;
-position: fixed;
-width: 200px;
-height: 200px;
+#gato {
+    right: 0px;
+    bottom: 0px;
+    position: fixed;
+    width: 200px;
+    height: 200px;
 
 }
