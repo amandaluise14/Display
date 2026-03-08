@@ -210,3 +210,21 @@ body{
     background-color: rgb(223, 182, 250);
     padding-bottom: 20;
 }
+
+.inline_flow_root{
+    display: inline flow-root;
+    border: 2px solid white;
+    padding: 10px;
+    margin-left: 10px;
+    width: 50%;
+    background-color: rgb(210, 133, 255);
+}
+
+.item_inline_root{
+    float: left;
+    padding: 20px;
+    margin: 10px;
+    font-size: 50px;
+    border: 2px solid white;
+    background-color: rgb(210, 133, 255);
+}
