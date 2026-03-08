@@ -232,3 +232,19 @@ body{
     justify-content: center;
     align-items: center;
 }
+
+#coruja{
+    position: static;
+    width: 180px;
+    height: 180px;
+}
+
+#ovelha{
+    position: relative;
+    width: 220;
+    height: 260;
+    top: 50;
+    left: 50;
+    right: 50;
+    bottom: 50;
+}
