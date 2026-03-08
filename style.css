@@ -1,5 +1,3 @@
-
-
 body{
     background-color: rgb(235, 212, 253);
     color: rgb(137, 38, 177);
@@ -247,4 +245,11 @@ body{
     left: 50;
     right: 50;
     bottom: 50;
+}
+#emoji{
+    position: absolute;
+    width: 250;
+    height: 200;
+    top: 50;
+    right: 50;
 }
