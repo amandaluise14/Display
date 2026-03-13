@@ -1,5 +1,3 @@
-
-
 body{
     background-color: rgb(235, 212, 253);
     color: rgb(137, 38, 177);
@@ -30,7 +28,6 @@ body{
     display: block;
     padding: 40;
     font-size: 30;
-    margin-bottom: 20px;
     background-color: rgb(210, 133, 255);
     text-align: center;
     border: 2px solid white;
@@ -123,7 +120,6 @@ body{
 }
 
 .green {
-    display: inline;
     padding: 30;
     background-color: rgb(210, 133, 255);
     border: 2px solid white;
@@ -207,4 +203,49 @@ body{
 .cor{
     background-color: rgb(223, 182, 250);
     padding-bottom: 20;
+}
+
+.inline_flow_root{
+    display: inline flow-root;
+    border: 2px solid white;
+    padding: 10px;
+    margin-left: 10px;
+    width: 50%;
+    background-color: rgb(210, 133, 255);
+}
+
+.caixa{
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    border: 2px solid white;
+    background-color: rgb(210, 133, 255);
+    font-size: 50px;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#coruja{
+    position: static;
+    width: 180px;
+    height: 180px;
+}
+
+#ovelha{
+    position: relative;
+    width: 220;
+    height: 260;
+    top: 50;
+    left: 50;
+    right: 50;
+    bottom: 50;
+}
+#emoji{
+    position: absolute;
+    width: 250;
+    height: 200;
+    top: 50;
+    right: 50;
 }
